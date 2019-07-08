@@ -26,7 +26,8 @@ export default class App extends React.Component {
     return (
       <View>
         <Header title="Pessoas!" />
-        {this.renderList()}      
+        {this.renderList()}   
+           
       </View>
     );
   }
